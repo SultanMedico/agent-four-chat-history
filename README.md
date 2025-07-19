@@ -64,3 +64,31 @@ uv run main.py
 uv run app.py
 
 
+uv init . 
+
+uv venv 
+
+source .venv/bin/activate
+
+uv add openai-agents
+
+uv add python-dotenv
+
+uv run main.py
+
+uv run app.py
+
+
+
+🧠 Benefits of Saving Chat History to a File:
+Feature	Advantage
+Saved between runs	Reopen chat next time
+Shareable	Send it to others if needed
+Editable	You can clean up or modify it
+Easy to export	Use in a UI like Chainlit later
+
+
+
+
+
+
